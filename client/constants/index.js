@@ -7,7 +7,7 @@ export const categories = [
     {
         id: 2,
         name: 'Burger',
-        image: require('../assets/images/pizzaIcon.png'),
+        image: require('../assets/images/burger.png'),
     },
     {
         id: 3,
@@ -36,7 +36,7 @@ export const categories = [
 export const featured = {
     id: 1,
     title: 'Hot and Spicy',
-    description: 'soft and tender fried chicken',
+    description: 'Soft and tender fried chicken',
     stores: [
         {
             id: 1,
@@ -76,8 +76,8 @@ export const featured = {
         },
         {
             id: 2,
-            name: 'Papa Johns',
-            image: require('../assets/images/pizza.png'),
+            name: 'Mc Donalds',
+            image: require('../assets/images/mcdonalds.png'),
             description: 'Hot and spicy pizzas',
             lng: -85.5324269,
             lat: 38.2145602,
@@ -88,17 +88,17 @@ export const featured = {
             dishes: [
                 {
                    id: 1,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
+                   name: 'Chicken Burger',
+                   description: 'Tender chicken, salads',
                    price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                   image:  require('../assets/images/burger.png')
                 },
                 {
                    id: 2,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                   name: 'Chicken Nuggets',
+                   description: 'Chicken Nuggets',
+                   price: 5,
+                   image:  require('../assets/images/nuggets.png')
                 },
                 {
                    id: 3,

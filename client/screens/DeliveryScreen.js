@@ -46,7 +46,7 @@ export default function DeliveryScreen() {
               Estimated Arrival
             </Text>
             <Text className="text-3xl font-extrabold text-gray-700">
-              20-30 Minutes
+              10-15 Minutes
             </Text>
             <Text className="mt-2 text-gray-700 font-semibold">
               Your order is on its way!

@@ -8,6 +8,8 @@ import StoreScreen from './screens/StoreScreen';
 import CartScreen from './screens/CartScreen';
 import OrderPrepairingScreen from './screens/OrderPrepairingScreen';
 import DeliveryScreen from './screens/DeliveryScreen';
+import LoginScreen from './screens/LoginScreen';
+import SignUpScreen from './screens/SignUpScreen';
 
 
 export default function Navigation() {
@@ -16,7 +18,9 @@ export default function Navigation() {
             <Stack.Navigator screenOptions={{
                 headerShown: false
             }}>
+                <Stack.Screen name="Login" component={LoginScreen} />
                 <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="SignUp" component={SignUpScreen} />
                 <Stack.Screen name="Store" component={StoreScreen} />
                 <Stack.Screen name="Cart" options={{presentation: 'modal'}} component={CartScreen} />
                 <Stack.Screen name="OrderPrepairing" options={{presentation: 'fullScreenModal'}} component={OrderPrepairingScreen} />
